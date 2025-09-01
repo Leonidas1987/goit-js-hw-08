@@ -64,10 +64,8 @@ const images = [
   },
 ];
 
-// Контейнер галереї
 const galleryContainer = document.querySelector(".gallery");
 
-// Створюємо розмітку
 const galleryMarkup = images
   .map(
     ({ preview, original, description }) => `
